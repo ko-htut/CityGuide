@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">City Guide</string>
+
+    <string name="bar">Bar</string>
+    <string name="bistro">Bistro</string>
+    <string name="cafe">Café</string>
+    <string name="distance">%1$.1f mi</string>
+</resources>
