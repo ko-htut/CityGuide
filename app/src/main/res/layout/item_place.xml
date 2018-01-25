@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:card_view="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp">
+    android:orientation="vertical">
     <android.support.v7.widget.CardView
         android:id="@+id/card_view"
         card_view:cardBackgroundColor="@color/colorWhite"
         android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:layout_marginTop="2dp"
         android:layout_height="wrap_content">
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,7 +22,8 @@
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/item_icon"
-                    android:padding="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
                     android:adjustViewBounds="true"
@@ -51,7 +52,9 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp">
                 <TextView
                     android:id="@+id/item_distance"
                     android:layout_width="wrap_content"
