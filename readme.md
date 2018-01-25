@@ -3,10 +3,12 @@ City Guide
 
 A simple Bar, Bistro and Café guide app.
 
+![FAB](https://github.com/scyanh/CityGuide/blob/master/screenshot.png "City Guide")
 
 Requisites
 --------------
 Install city_guide.apk on your device
+https://s3.amazonaws.com/s3ghost/alberto_torres/city_guide.apk
 
 
 Getting Started
